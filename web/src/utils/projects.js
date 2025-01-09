@@ -1,35 +1,5 @@
 export const projects = [
-  {
-    name: 'Aplicación de voleibol',
-    img: '/assets/Captura de pantalla (108).png',
-    tecnologies: [
-      {
-        name: 'react Js',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png'
-      },
-      {
-        name: 'Material UI',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/material_ui.png'
-      },
-      {
-        name: 'Tailwind',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png'
-      },
-      {
-        name: 'JavaScript',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png'
-      },
-      {
-        name: 'HTML5',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png'
-      }
-    ],
-    description:
-      'Éste proyecto mantiene la gestión de estadísticas y otros indicadores de los jugadores de voleibol de una institución nacional',
-    url: 'https://github.com/programing-master/voley-app-frontend'
-   , deploy: 'https://colorproduction.netli'
-  
-},
+ 
   {
     name: 'App de Comida rápida',
     img: '/assets/Captura de pantalla (34).png',
