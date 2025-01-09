@@ -1,0 +1,28 @@
+* {
+  font-family: 'DM Sans', serif;
+  background: rgb(10,10,20);
+  color:white;
+  scroll-behavior: smooth;
+  scrollbar-color: blue;
+}
+
+@keyframes show {
+  from {
+      opacity: 0;
+      scale: 25%;
+  }
+
+  to {
+      opacity: 1;
+      scale: 100%;
+  }
+}
+
+.img-animated {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 1% cover 30%;
+  animation-fill-mode: both;
+}
