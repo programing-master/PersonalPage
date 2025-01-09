@@ -109,6 +109,6 @@ export const projects = [
     ],
     description: 'Landing Page para promocionar una app de mapas',
     url: 'https://github.com/programing-master/LandingPage-Turistic',
-    deploy: 'https://colorproduction.netli'
+    deploy: 'https://landing-page-turistic.vercel.app/'
   }
 ]
