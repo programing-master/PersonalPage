@@ -18,7 +18,7 @@ export default function CardProjects ({ props }) {
       <span className='px-4 py-2 mt-4 text-blue-500'>Tecnologías</span>
       <ul className='flex items-center gap-2 px-4 py-2 relative bottom-0'>
         <section className='flex h-[20] items-center justify-between'>
-          <div className=' flex items-center gap-2 '>
+          <div className='w-[50%] flex items-center gap-2 '>
             {props.tecnologies.map((item, index) => (
               <img
                 key={index}
@@ -28,7 +28,7 @@ export default function CardProjects ({ props }) {
               />
             ))}
           </div>
-          <div className=' flex items-center gap-4'>
+          <div className=' flex items-center gap-4 w-[50%]'>
             <a
               href={props.deploy}
               target='_blank'
