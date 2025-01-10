@@ -55,38 +55,7 @@ export const projects = [
 
     },
 
-  {
-    name: 'App de Comida rápida',
-    img: '/assets/Captura de pantalla (34).png',
-    tecnologies: [
-      {
-        name: 'react Js',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png'
-      },
-      {
-        name: 'Material UI',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/material_ui.png'
-      },
-      {
-        name: 'Tailwind',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png'
-      },
-      {
-        name: 'JavaScript',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png'
-      },
-      {
-        name: 'HTML5',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png'
-      }
-    ],
-    description:
-      'Una app para mantener gestion económica de negocios de cada usuario donde en cada negocio se mantiene el control de mercancías trabajadores ventas y asi',
-    
-      url: 'https://github.com/programing-master/Fast-food-ordering'
-    ,  deploy: 'https://colorproduction.netli'
-
-    },
+  
   {
     name: 'Colorpalette',
     img: '/assets/Captura de pantalla (126).png',
