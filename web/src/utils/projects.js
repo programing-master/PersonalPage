@@ -30,31 +30,6 @@ export const projects = [
     },
 
 
- {
-    name: 'Página Limegroup marketing',
-    img: '/assets/Captura de pantalla (134).png',
-    tecnologies: [
-   
-      {
-        name: 'JavaScript',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png'
-      },
-      {
-        name: 'HTML5',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png'
-      },
-     {
-        name: 'CSS3',
-        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png'
-      }
-    ],
-    description:
-      'Página para promocionar servicios de la empresa en que estuve trabajando, analisis SEO  ,empleo de Squarespace y programación frontend en casos específicos',
-    
-      url: 'https://github.com/programing-maste'
-    ,  deploy: 'https://limegroupmarketing.com'
-
-    },
   {
     name: 'App de Comida rápida',
     img: '/assets/Captura de pantalla (34).png',
