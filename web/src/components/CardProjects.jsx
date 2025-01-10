@@ -5,7 +5,7 @@ export default function CardProjects ({ props }) {
   return (
     <div className='border img-animated  rounded-md min-h-[50vh] p-2  shadow transition-all  ease-linear hover:shadow-lg hover:shadow-blue-400  hover:-translate-y-2'>
       <h4 className='px-4 py-2 font-bold text-xl'>{props.name}</h4>
-      <div className='w-[100%] flex justify-center items-center'>
+      <div className='w-[100%] flex justify-center items-center h-[80%]'>
         <img
           className='w-[95%] min-h-[80%] object-fill'
           src={props.img}
