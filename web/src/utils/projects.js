@@ -1,5 +1,33 @@
 export const projects = [
- 
+ {
+    name: 'Chat de Inteligencia Artificial',
+    img: '/assets/Captura de pantalla (133).png',
+    tecnologies: [
+      {
+        name: 'react Js',
+        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png'
+      },
+     
+      {
+        name: 'Tailwind',
+        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/tailwind_css.png'
+      },
+      {
+        name: 'JavaScript',
+        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png'
+      },
+      {
+        name: 'HTML5',
+        url: 'https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/html.png'
+      }
+    ],
+    description:
+      'Asistente de inteligencia artificial utilizando la api de gemini',
+    
+      url: 'https://github.com/programing-master/chatAi'
+    ,  deploy: 'https://chat-ai-pink-six.vercel.app'
+
+    },
   {
     name: 'App de Comida rápida',
     img: '/assets/Captura de pantalla (34).png',
