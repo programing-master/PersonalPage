@@ -5,7 +5,7 @@ export default function CardProjects ({ props }) {
   return (
     <div className='border img-animated  rounded-md min-h-[50vh] p-2  shadow transition-all  ease-linear hover:shadow-lg hover:shadow-blue-400  hover:-translate-y-2'>
       <h4 className='px-4 py-2 font-bold text-xl'>{props.name}</h4>
-      <div className='w-[100%] flex justify-center items-center h-[40%]'>
+      <div className='w-[100%] flex justify-center items-center '>
         <img
           className='w-[95%] min-h-[80%] object-fill'
           src={props.img}
@@ -18,7 +18,7 @@ export default function CardProjects ({ props }) {
       <span className='px-4 py-2 mt-4 text-blue-500'>Tecnologías</span>
       <ul className='flex items-center gap-2 px-4 py-2 relative bottom-0'>
         <section className='flex h-[20] items-center justify-between'>
-          <div className='w-[50%] flex items-center gap-2 '>
+          <div className=' flex items-center gap-2 '>
             {props.tecnologies.map((item, index) => (
               <img
                 key={index}
@@ -28,7 +28,7 @@ export default function CardProjects ({ props }) {
               />
             ))}
           </div>
-          <div className=' flex items-end gap-4 w-[50%]'>
+          <div className=' flex items-center gap-4 '>
             <a
               href={props.deploy}
               target='_blank'
