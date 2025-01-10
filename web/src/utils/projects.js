@@ -49,7 +49,7 @@ export const projects = [
       }
     ],
     description:
-      'Página para promocionar servicios de la empresa analisis seo con GSC ,empleo de Squarespace y programación frontend en casos específicos',
+      'Página para promocionar servicios de la empresa en que estuve trabajando, analisis SEO  ,empleo de Squarespace y programación frontend en casos específicos',
     
       url: 'https://github.com/programing-maste'
     ,  deploy: 'https://limegroupmarketing.com'
